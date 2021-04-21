@@ -15,9 +15,11 @@
   margin-bottom: 15px;
 }
 
-.iw_form .formSection input {
+.iw_form .formSection input,
+.iw_form .formSection textarea {
   font-size: 20px;
   padding: 5px;
+  resize: none;
 }
 
 .iw_form .formSection {
