@@ -20,7 +20,7 @@ Si necesitas ayuda para algun tema en especifico sobre nuestro sitio web o encon
 
 #### Hoja de ruta:
 
-Pronto iremos actualizando nuestra pagina web agregando mas secciones con el objetivo de interactuar mas entre vendedores y compradores de objetos y quizas mas cosas que puedas vender aparte de mejorar y optimizar el uso de nuestro sitio web para que sea lo mas rapido y facil posible.
+Pronto iremos actualizando nuestra pagina web agregando mas secciones con el objetivo de interactuar mas entre vendedores y compradores de objetos y quizas mas cosas que puedas vender aparte de mejorar y optimizar el uso de nuestro sitio web para que sea lo mas facil posible.
 
 #### Contribución:
 
