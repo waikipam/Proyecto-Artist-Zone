@@ -20,11 +20,11 @@ Si necesitas ayuda para algun tema en especifico sobre nuestro sitio web o encon
 
 #### Hoja de ruta:
 
-Pronto iremos actualizando nuestra pagina web agregando mas secciones con el objetivo de interactuar mas entre vendedores y compradores de objetos y quizas mas cosas que puedas vender aparte de mejorar y optimizar el uso de nuestro sitio web para que sea lo mas facil posible.
+Pronto iremos actualizando nuestra pagina web agregando mas secciones con el objetivo de interactuar mas entre vendedores y compradores de objetos y quizas mas cosas que puedas vender aparte de mejorar y optimizar el uso de nuestro sitio web para que sea lo mas rapido y facil posible.
 
 #### Contribución:
 
-Siempre estaremos aceptando copntribuciones mientras nuestro objetivo sea el mismo de mejorar la experiencia de ventas de objetos artisticos lo mas eficaz y facil posible.
+Siempre estaremos aceptando contribuciones mientras nuestro objetivo sea el mismo de mejorar la experiencia de ventas de objetos artisticos lo mas eficaz y facil posible.
 
 #### Autores:
 
