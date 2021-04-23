@@ -1,0 +1,14 @@
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-ev
+}

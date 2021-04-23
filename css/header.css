@@ -1,0 +1,143 @@
+.iw_header {
+  display: flex;
+  background: #f8f9fa;
+  height: 63px;
+  align-items: center;
+  text-align: center;
+  z-index: 1000;
+}
+
+.iw_header__right {
+  width: 25%;
+}
+
+.iw_header__left {
+  width: 10%;
+}
+
+.iw_header__left i {
+  display: none;
+}
+
+.iw_header__search {
+  width: 25%;
+}
+
+.iw_header__left img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.iw_header nav {
+  width: 40%;
+  margin-top: 15px;
+}
+
+.iw_header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.iw_header__right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iw_header__search input {
+  border: none;
+  outline: 2px solid #bdd7fa;
+  padding: 3px 5px;
+  transition-property: outline;
+  transition-duration: 0.3s;
+}
+
+.iw_header__search input:focus {
+  outline: 2px solid #198754;
+  transition-property: outline;
+  transition-duration: 0.3s;
+}
+
+.iw_header__right a {
+  border: 2px solid #198754;
+  text-decoration: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 3px 10px;
+  transition-property: background color;
+  transition-duration: 0.3s;
+}
+
+.iw_header__right a:hover {
+  background: #198754;
+  transition-property: background color;
+  transition-duration: 0.3s;
+  color: #f9f9f9;
+}
+
+@media screen and (max-width: 800px) {
+  .iw_header {
+    justify-content: space-between;
+  }
+
+  .iw_header__left {
+    width: 25%;
+  }
+
+  .iw_header__left i {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .iw_header__search {
+    width: 75%;
+  }
+
+  .iw_header__search {
+    margin-right: 30px;
+  }
+
+  .iw_header__search input {
+    width: 100%;
+  }
+
+  .iw_header__left .i__bars {
+    display: block;
+    cursor: pointer;
+  }
+
+  .iw_header__left img {
+    display: none;
+  }
+
+  .iw_header nav {
+    position: absolute;
+    top: 100px;
+    z-index: 2999;
+    width: 100%;
+    background: #f8f9fa;
+    display: none;
+  }
+
+  .iw_header nav ul {
+    flex-direction: column;
+  }
+
+  .iw_header nav ul li {
+    padding: 10px 0 0 0;
+  }
+
+  .iw_header__right {
+    position: absolute;
+    top: 61px;
+    z-index: 3000;
+    background: #f8f9fa;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+  }
+}
