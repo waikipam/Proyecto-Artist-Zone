@@ -11,6 +11,10 @@
 .social-media {
   display: flex;
   justify-content: space-evenly;
+  margin: 30px auto;
+}
 
-  ma
+.social-media i {
+  font-size: 28px;
+  cursor: pointer;
 }
