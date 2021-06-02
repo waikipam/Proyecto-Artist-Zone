@@ -7,14 +7,23 @@ const fetchData = position =>{
         .then(data => setWeatherData(data))
 }
 
+
+
 const setWeatherData = data =>{
     console.log(data);
+    var iconCode = data.weather[0].icon;
+    var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png"; 
+    $(".icon").html("<img class = 'newIcon' src=" + iconUrl + ">");
+    
+
+
     const weatherData ={
         location: data.name,
         description: data.weather[0].main,
         temperature: data.main.temp+"°C",
-    }
 
+    }
+    
     Object.keys(weatherData).forEach( key =>{
         document.getElementById(key).textContent = weatherData[key];
     });
