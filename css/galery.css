@@ -32,3 +32,49 @@
   padding: 2px 10px;
   text-align: center;
 }
+
+.block-location{
+  background-color: #f9f9f9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  padding: 5px;
+}
+
+.block-location>h6{
+  font-weight: bold;
+}
+
+.block-temperature{
+  background-color: #f9f9f9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
+  margin: 10px;
+
+}
+
+.block-temperature>h6{
+  font-weight: bold;
+}
+
+.block-weather{
+  background-color: #f9f9f9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  padding: 5px;
+}
+
+.block-weather>h6{
+  font-weight: bold; 
+}
+
+#container{
+  background-color: #ecf0f1;
+  padding: 5px;
+  width: 400px;
+  display: none;
+}
+
+
+
+
+

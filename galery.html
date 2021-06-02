@@ -21,7 +21,7 @@
     <link href="css/galery.css" rel="stylesheet" />
     <title>Galeria</title>
   </head>
-  <body>
+  <body onload="onLoad()">
     <header class="iw_header">
       <div class="iw_header__left">
         <img src="img/logo.svg" alt="logo" />
@@ -39,6 +39,9 @@
       <div class="iw_header__search">
         <input type="text" placeholder="Buscar..." />
       </div>
+      
+    <div id="loader" class="loader">Loading...</div>
+    <script src="js/weather.js"></script>
 
       <div class="iw_header__right">
         <a href="register.html">Registrar</a>
@@ -66,4 +69,22 @@
       </div>
     </div>
   </body>
+  <footer>
+    <!-- Clima -->
+    <div id="container">
+      <div class="block-location">
+        <h6>Ubicación</h6>
+        <div id="location"></div>
+      </div>
+      <div class="block-temperature">
+        <h6>Temperatura</h6>
+        <div class="info" id="temperature"></div>
+      </div>
+      <div class="block-weather">
+        <h6>Clima</h6>
+        <div id="description"></div>
+      </div>
+      </div>     
+
+  </footer>
 </html>
