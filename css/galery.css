@@ -1,3 +1,9 @@
+.loadingApi {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 20px;
+}
+
 .content {
   max-width: 1000px;
   display: grid;
@@ -33,48 +39,47 @@
   text-align: center;
 }
 
-.block-location{
+.block-location {
   background-color: #f9f9f9;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 10px;
   padding: 5px;
+  width: 80%;
 }
 
-.block-location>h6{
+.block-location > h6 {
   font-weight: bold;
 }
 
-.block-temperature{
+.block-temperature {
   background-color: #f9f9f9;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 5px;
   margin: 10px;
-
+  width: 80%;
 }
 
-.block-temperature>h6{
+.block-temperature > h6 {
   font-weight: bold;
 }
 
-.block-weather{
+.block-weather {
   background-color: #f9f9f9;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 10px;
   padding: 5px;
+  width: 80%;
 }
 
-.block-weather>h6{
-  font-weight: bold; 
+.block-weather > h6 {
+  font-weight: bold;
 }
 
-#container{
+#container {
   background-color: #ecf0f1;
   padding: 5px;
-  width: 400px;
+  width: 10%;
   display: none;
+  max-width: 100%;
+  width: 130px;
 }
-
-
-
-
-
