@@ -8,8 +8,7 @@
     <link href="css/header.css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPokmtqpuNWT9wdPEn2f"
       crossorigin="anonymous"
     />
     <link
@@ -36,18 +35,20 @@
           <li><a href="#">Pronto...</a></li>
         </ul>
       </nav>
-      
 
-      <div class="iw_header__search">
-        <input type="text" placeholder="Buscar..." />
+      <div>
+        <section>
+          <form autocomplete="off" id="form">
+            <div>
+              <input type="text" id="search" placeholder="Buscar" />
+            </div>
+          </form>
+        </section>
       </div>
-
-       
 
       <div id="loader" class="loader">Loading...</div>
       <script src="js/weather.js"></script>
 
-      
       <div class="iw_header__right">
         <a href="register.html">Registrar</a>
         <a href="login.html">Logear</a>
@@ -58,29 +59,28 @@
     <div class="content"></div>
 
     <footer>
-     <!-- Clima -->
-     <div class="row">
-     <div id="container">
-      
-      <div class="block-location">
-        <h6>Ubicación</h6>
-        <div id="location"></div>
+      <!-- Clima -->
+      <div class="row">
+        <div id="container">
+          <div class="block-location">
+            <h6>Ubicación</h6>
+            <div id="location"></div>
+          </div>
+          <div class="block-temperature">
+            <h6>Temperatura</h6>
+            <div class="info" id="temperature"></div>
+          </div>
+          <div class="block-weather">
+            <h6>Clima</h6>
+            <div id="description"></div>
+            <div id="icon" class="icon"></div>
+          </div>
+          <div class="block-icon"></div>
+        </div>
       </div>
-      <div class="block-temperature">
-        <h6>Temperatura</h6>
-        <div class="info" id="temperature"></div>
-      </div>
-      <div class="block-weather">
-        <h6>Clima</h6>
-        <div id="description"></div>
-        <div id="icon" class="icon"></div>
-      </div>
-      <div class="block-icon"></div>
-    
-  </div>
-</div>
     </footer>
 
+    <script src="js/searchSave.js"></script>
     <script src="js/gallery.js"></script>
   </body>
 </html>

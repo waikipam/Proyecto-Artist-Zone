@@ -10,6 +10,7 @@ const initialize = async () => {
   );
   const res = await fetching.json();
   const data = res.data;
+  console.log(data);
 
   $pictureImg.src = `https://www.artic.edu/iiif/2/${data.image_id}/full/843,/0/default.jpg`;
   $pictureTitle.textContent = `Title: ${data.title}`;
